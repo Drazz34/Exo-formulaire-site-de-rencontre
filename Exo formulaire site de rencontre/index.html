@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de rencontre</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="">Nom :</label>
+        <input type="text" name="nom" id="nom" minlength="2" maxlength="45" pattern="\D">
+
+        <br>
+
+        <label for="">Prénom : </label>
+        <input type="text" name="prenom" id="prenom" minlength="2" maxlength="45" pattern="\D">
+
+        <br>
+
+        <label for="">E-mail : </label>
+        <input type="email" pattern="^([a-z0-9]+)@([a-z]+)(\.com|\.net|\.fr|\.org)$">
+
+        <br>
+
+        <label for="">Sexe : </label>
+        <input type="radio" name="sexe">Masculin
+        <input type="radio" name="sexe" checked>Féminin
+
+    </form>
+
+    <form action="" enctype="multipart/form-data" method="post">
+
+        <input type="file" name="photo" id="photo" accept=".png, .jpg" title="Seulement .png et .jpg">
+
+    </form>
+
+    <form action="">
+
+        <select name="pays" id="pays">
+
+            <option value="1">FRANCE</option>
+            <option value="2">ANGLETERRE</option>
+            <option value="3" selected>ALLEMAGNE</option>
+            <option value="4">ITALIE</option>
+            <option value="5">SUISSE</option>
+            <option value="6">ESPAGNE</option>
+
+        </select>
+
+    </form>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend>Langue préférée en France : </legend>
+
+            <label for="france">français</label>
+            <input type="checkbox" name="france" id="france">
+
+            <br>
+
+            <label for="angleterre">anglais</label>
+            <input type="checkbox" name="anglais" id="france">
+
+            <br>
+
+            <label for="allemand">allemand</label>
+            <input type="checkbox" name="allemand" id="france">
+
+        
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Langue préférée en Angleterre : </legend>
+
+            <label for="france">français</label>
+            <input type="checkbox" name="francais" id="angleterre">
+
+            <br>
+
+            <label for="angleterre">anglais</label>
+            <input type="checkbox" name="anglais" id="angleterre">
+
+            <br>
+
+            <label for="allemand">allemand</label>
+            <input type="checkbox" name="allemand" id="angleterre">
+
+        </fieldset>
+
+        <fieldset>
+
+                <legend>Langue préférée en Allemagne : </legend>
+    
+                <label for="france">français</label>
+                <input type="checkbox" name="france" id="allemagne">
+    
+                <br>
+    
+                <label for="angleterre">anglais</label>
+                <input type="checkbox" name="anglais" id="allemagne">
+    
+                <br>
+    
+                <label for="allemand">allemand</label>
+                <input type="checkbox" name="allemand" id="allemagne">
+            
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>Langue préférée en Italie : </legend>
+
+            <label for="france">français</label>
+            <input type="checkbox" name="france" id="italie">
+
+            <br>
+
+            <label for="angleterre">anglais</label>
+            <input type="checkbox" name="anglais" id="italie">
+
+            <br>
+
+            <label for="allemand">italien</label>
+            <input type="checkbox" name="italien" id="italie">
+        
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Langue préférée en Suisse : </legend>
+
+            <label for="france">français</label>
+            <input type="checkbox" name="france" id="suisse">
+
+            <br>
+
+            <label for="angleterre">anglais</label>
+            <input type="checkbox" name="anglais" id="suisse">
+
+            <br>
+
+            <label for="allemand">allemand</label>
+            <input type="checkbox" name="allemand" id="suisse">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Langue préférée en Espagne : </legend>
+
+            <label for="france">français</label>
+            <input type="checkbox" name="france" id="espagne">
+
+            <br>
+
+            <label for="angleterre">anglais</label>
+            <input type="checkbox" name="anglais" id="espagne">
+
+            <br>
+
+            <label for="allemand">espagnol</label>
+            <input type="checkbox" name="espagnol" id="espagne">
+
+        </fieldset>
+
+        Domaine d'activitée : <br>
+
+        <input type="radio" name="boulot">Plombier
+        <input type="radio" name="boulot">Electricien
+        <input type="radio" name="boulot">Maçon
+        <input type="radio" name="boulot">Carreleur
+        <input type="radio" name="boulot">Menuisier
+        <input type="radio" name="boulot">Couvreur
+       
+
+    </form>
+    
+</body>
+</html>
